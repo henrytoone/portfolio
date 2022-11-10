@@ -1,0 +1,13 @@
+name = ""
+type = "webpack"
+
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2022-11-06"
+
+# wrangler kv:namespace create "SAMPLE_API" --preview
+kv_namespaces = [
+         { binding = "SAMPLE_API", preview_id = "", id = "" }
+]
