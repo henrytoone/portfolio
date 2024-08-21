@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home.tsx";
 import Layout from "./Layout.tsx";
+import Contact from "./pages/Contact.tsx";
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
             <Routes>
                 <Route element={<Layout />}>
                     <Route path="/" element={<Home />} />
+                    <Route path="/contact" element={<Contact />} />
                     <Route path="*" element={<Home />} />
                 </Route>
             </Routes>
